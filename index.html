@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jogo da Velha</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <a>Jogo Da Velha</a>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Github</a>
+                    </li>
+                    <li>
+                        <a href="">GrupoStack</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="tabelasform">
+             <div>
+                <label id="bloco1"> </label>
+                <button id="dede" onclick="mudarvalor(); verifGanhador();" class="botoesX">X</button>
+                <button id="dudu" onclick="mudarvalor1(); verifGanhador();" class="botoesO">O</button>
+            </div>
+            <div>
+                <label id="bloco2"> </label>
+                <button id="botao2" onclick="mudarvalor2(); verifGanhador();" class="botoesX">X</button>
+                <button id="botao3" onclick="mudarvalor3(); verifGanhador();" class="botoesO">O</button>
+            </div>
+            <div>
+                <label id="bloco3"> </label>
+                <button id="botao4" onclick="mudarvalor4(); verifGanhador();" class="botoesX">X</button>
+                <button id="botao5" onclick="mudarvalor5(); verifGanhador();" class="botoesO">O</button>
+            </div>
+            <div>
+                <label id="labelcentro1"> </label>
+                <button id="centro1" onclick="mudarvalor6(); verifGanhador();" class="botoesX">X</button>
+                <button id="centro2"onclick="mudarvalor7(); verifGanhador();" class="botoesO">O</button>
+            </div>
+            <div>
+                <label id="labelcentro2"> </label>
+                <button id="centro3" onclick="mudarvalor8(); verifGanhador();" class="botoesX">X</button>
+                <button id="centro4" onclick="mudarvalor9(); verifGanhador();" class="botoesO">O</button>
+            </div>
+            <div>
+                <label id="labelcentro3"> </label>
+                <button id="centro5" onclick="mudarvalor10(); verifGanhador();" class="botoesX">X</button>
+                <button id="centro6" onclick="mudarvalor11(); verifGanhador();" class="botoesO">O</button>
+            </div>
+            <div>
+                <label id="labeldireita1"> </label>
+                <button id="direita1" onclick="mudarvalor12(); verifGanhador();" class="botoesX">X</button>
+                <button id="direita2"onclick="mudarvalor13(); verifGanhador();" class="botoesO">O</button>
+            </div>
+            <div>
+                <label id="labeldireita2"> </label>
+                <button id="direita3" onclick="mudarvalor14(); verifGanhador();" class="botoesX">X</button>
+                <button id="direita4" onclick="mudarvalor15(); verifGanhador();" class="botoesO">O</button>
+            </div>
+            <div>
+                <label id="labeldireita3"> </label>
+                <button id="direita5" onclick="mudarvalor16(); verifGanhador();" class="botoesX">X</button>
+                <button id="direita6" onclick="mudarvalor17(); verifGanhador();" class="botoesO">O</button>
+            </div>
+        </section>
+    </body>
+</html>
